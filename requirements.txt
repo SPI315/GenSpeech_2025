@@ -6,3 +6,6 @@ thop==0.1.1.post2209072238
 soundfile==0.13.1
 matplotlib==3.10.1
 pandas==2.2.3
+levenshtein==0.27.1
+https://github.com/kpu/kenlm/archive/master.zip
+transformers==4.50.3
