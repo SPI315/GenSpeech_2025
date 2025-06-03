@@ -16,7 +16,9 @@ class TextToSpecConverter:
         self.config = self.tts_handler.synthesizer.tts_config
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         self.use_cuda = True if self.device == "cuda" else False
-        print(f"Model {model_name} loaded")
+        
+        self.model.to(self.device)
+        print(f"Model {model_name} loaded to device {self.device}")
     
     def text2spec(self, text: str):
         """

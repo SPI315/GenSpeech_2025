@@ -9,3 +9,8 @@ TTS
 assignment3/LJspeech-1.1
 assignment3/LJSpeech-1.1.tar.bz2
 group_assignment1\data
+assignment3/preprocessed
+assignment3/output_spectrogram.png
+assignment3/output.wav
+assignment3/sample_gen.wav
+assignment3/final_model.pt
