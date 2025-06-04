@@ -13,4 +13,4 @@ assignment3/preprocessed
 assignment3/output_spectrogram.png
 assignment3/output.wav
 assignment3/sample_gen.wav
-assignment3/final_model.pt
+assignment3/final_checkpoint_to_learning.pt
